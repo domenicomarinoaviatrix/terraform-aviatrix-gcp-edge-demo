@@ -16,7 +16,8 @@ variable "pov_prefix" {
 
 variable "host_vm_size" {
   description = "Has to be capable of virtualization."
-  default     = "n2-standard-2"
+  #default     = "n2-standard-2"
+  default     = "n2-highmem-2"
 }
 
 variable "host_vm_cidr" {
